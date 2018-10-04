@@ -2,8 +2,8 @@ int Throttle=13;
 int Steer=12;
 int enableVL=11;
 int enableVR=10;
-int enableAL=6;
-int enableAR=5;
+int enableAL=5;
+int enableAR=6;
 int inL1=8;
 int inL2=7;
 int inR1=4;
@@ -13,7 +13,7 @@ double valSteer;
 double speedRatio=135.0/163.0;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   pinMode(Throttle,INPUT);
   pinMode(Steer, INPUT);
   pinMode(inL1,OUTPUT);
